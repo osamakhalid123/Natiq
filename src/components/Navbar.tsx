@@ -7,7 +7,7 @@ function NavbarComponent() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container className="d-flex justify-content-between">
-        <Navbar.Brand href="/">Natiq App</Navbar.Brand>
+        <Navbar.Brand href="/">Natiq</Navbar.Brand>
         <div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>

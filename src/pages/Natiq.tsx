@@ -4,7 +4,6 @@ import { generateAudio } from "../services/audioService";
 import { useState } from "react";
 import { Alert, Button, Container } from "react-bootstrap";
 
-
 export default function Natiq() {
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
@@ -26,6 +25,7 @@ export default function Natiq() {
       );
     } finally {
       setLoading(false);
+      setText("");
     }
   };
   return (

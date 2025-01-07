@@ -12,6 +12,13 @@ export default function Home() {
           Arabic, or building an application, Natiq makes it easy to generate
           high-quality audio.
         </p>
+
+        <img
+          src="../../public/logo.webp"
+          alt="logo"
+          className="w-25 h-25 mb-5"
+        />
+
         <Link to="/natiq">
           <Button variant="primary">Try Natiq Now</Button>
         </Link>

@@ -1,4 +1,5 @@
 import { Button, Container } from "react-bootstrap";
+
 import { Link } from "react-router-dom";
 
 export default function About() {
@@ -38,7 +39,7 @@ export default function About() {
 
         <div>
           <img
-            src="../../public/logo.webp"
+            src="/logo.webp"
             alt="logo"
             className="w-100 h-10s0"
           />

@@ -1,4 +1,5 @@
 import { Button, Container } from "react-bootstrap";
+
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
         </p>
 
         <img
-          src="../../public/logo.webp"
+          src="/logo.webp"
           alt="logo"
           className="w-25 h-25 mb-5"
         />
